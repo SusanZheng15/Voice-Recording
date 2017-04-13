@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  RecorderAndPlayer
 //
-//  Created by Flatiron School on 7/14/16.
+//  Created by Susan Zheng on 7/14/16.
 //  Copyright © 2016 Flatiron School. All rights reserved.
 //
 

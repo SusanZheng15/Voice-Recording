@@ -37,7 +37,7 @@ class RecordAndPlayViewController: UIViewController, AVAudioRecorderDelegate, AV
             print(error)
         }
         
-        let audioFileAsset = try AVAudioFile(forReading: getFileURL())
+        let audioFileAsset = try! AVAudioFile(forReading: getFileURL())
         
         print(audioFileAsset)
         
