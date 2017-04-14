@@ -19,13 +19,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3b-yG-mfO">
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Play"/>
-                                <connections>
-                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TLu-be-eTJ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edB-9y-GdJ">
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Record"/>
@@ -33,17 +26,24 @@
                                     <action selector="record:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DDZ-4w-Edu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3b-yG-mfO">
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TLu-be-eTJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="edB-9y-GdJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="265" id="3gc-tn-5Cf"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="edB-9y-GdJ" secondAttribute="bottom" constant="344" id="43J-5l-ukG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="edB-9y-GdJ" secondAttribute="trailing" constant="218" id="Oc5-IY-YcC"/>
-                            <constraint firstItem="d3b-yG-mfO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="216" id="STL-hS-Jze"/>
-                            <constraint firstItem="edB-9y-GdJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="43" id="Xel-JG-bLf"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="d3b-yG-mfO" secondAttribute="trailing" constant="70" id="rtc-dk-DcJ"/>
-                            <constraint firstItem="d3b-yG-mfO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="269" id="s8h-aD-5Ut"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="d3b-yG-mfO" secondAttribute="bottom" constant="348" id="sfd-hs-SaL"/>
+                            <constraint firstItem="edB-9y-GdJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="192" id="3gc-tn-5Cf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="edB-9y-GdJ" secondAttribute="bottom" constant="417" id="43J-5l-ukG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="edB-9y-GdJ" secondAttribute="trailing" constant="131" id="Oc5-IY-YcC"/>
+                            <constraint firstItem="d3b-yG-mfO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="143" id="STL-hS-Jze"/>
+                            <constraint firstItem="edB-9y-GdJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="130" id="Xel-JG-bLf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="d3b-yG-mfO" secondAttribute="trailing" constant="143" id="rtc-dk-DcJ"/>
+                            <constraint firstItem="d3b-yG-mfO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="306" id="s8h-aD-5Ut"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="d3b-yG-mfO" secondAttribute="bottom" constant="311" id="sfd-hs-SaL"/>
                         </constraints>
                     </view>
                     <connections>

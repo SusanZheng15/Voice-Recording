@@ -20,7 +20,6 @@ class RecordAndPlayViewController: UIViewController, AVAudioRecorderDelegate, AV
     var audioEngine : AVAudioEngine!
     var audioFile : AVAudioFile!
     
-    
     let fileName = "demo.caf"
     
     override func viewDidLoad()
@@ -28,7 +27,6 @@ class RecordAndPlayViewController: UIViewController, AVAudioRecorderDelegate, AV
         super.viewDidLoad()
         setupRecorder()
         
-       // soundPlayer.enableRate = true
         audioEngine = AVAudioEngine()
         
         do {
