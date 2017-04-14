@@ -30,8 +30,11 @@ class RecordAndPlayViewController: UIViewController, AVAudioRecorderDelegate, AV
         audioEngine = AVAudioEngine()
         
         do {
+            
             _ = try AVAudioFile(forReading: getFileURL())
-        }catch{
+        }
+        catch
+        {
             print(error)
         }
         
@@ -41,11 +44,6 @@ class RecordAndPlayViewController: UIViewController, AVAudioRecorderDelegate, AV
         
     }
 
-    override func didReceiveMemoryWarning()
-    {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     @IBAction func record(_ sender: AnyObject)
     {
@@ -88,9 +86,9 @@ class RecordAndPlayViewController: UIViewController, AVAudioRecorderDelegate, AV
     
     @IBAction func play(_ sender: AnyObject)
     {
+        
         if (playButton.titleLabel!.text == "Play")
         {
-            //voiceChanged(1000)
             RecordButton.isEnabled = false
             playButton.setTitle("Stop", for: UIControlState())
             preparePlayer()
@@ -107,8 +105,7 @@ class RecordAndPlayViewController: UIViewController, AVAudioRecorderDelegate, AV
     func setupRecorder()
     {
         
-        //set the settings for recorder
-        
+        //settings for recorder
         let recordSettings = [AVSampleRateKey : NSNumber(value: Float(44100.0) as Float),
                                 AVFormatIDKey : NSNumber(value: Int32(kAudioFormatAppleLossless) as Int32),
                         AVNumberOfChannelsKey : NSNumber(value: 2 as Int32),
