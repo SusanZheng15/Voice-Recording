@@ -76,10 +76,7 @@ class RecordAndPlayViewController: UIViewController, AVAudioRecorderDelegate, AV
         audioEngine.connect(changePitch, to: audioEngine.outputNode, format: nil)
         
 
-        
-        
         audioPlayerNode.scheduleFile(audioFile, at: nil, completionHandler: nil)
-        
         audioPlayerNode.scheduleFile(audioFile, at: nil, completionHandler: nil)
     }
  
@@ -150,6 +147,7 @@ class RecordAndPlayViewController: UIViewController, AVAudioRecorderDelegate, AV
         
         return filePath
     }
+    
     
     func preparePlayer()
     {

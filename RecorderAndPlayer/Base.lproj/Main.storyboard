@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3b-yG-mfO">
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="Play!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -29,7 +29,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edB-9y-GdJ">
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="Record your Voice!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -40,11 +40,11 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="edB-9y-GdJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="187" id="3gc-tn-5Cf"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="edB-9y-GdJ" secondAttribute="bottom" constant="422" id="43J-5l-ukG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="edB-9y-GdJ" secondAttribute="trailing" constant="77" id="Oc5-IY-YcC"/>
+                            <constraint firstItem="edB-9y-GdJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="188" id="3gc-tn-5Cf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="edB-9y-GdJ" secondAttribute="bottom" constant="421" id="43J-5l-ukG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="edB-9y-GdJ" secondAttribute="trailing" constant="69" id="Oc5-IY-YcC"/>
                             <constraint firstItem="d3b-yG-mfO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="143" id="STL-hS-Jze"/>
-                            <constraint firstItem="edB-9y-GdJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="76" id="Xel-JG-bLf"/>
+                            <constraint firstItem="edB-9y-GdJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="69" id="Xel-JG-bLf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="d3b-yG-mfO" secondAttribute="trailing" constant="143" id="rtc-dk-DcJ"/>
                             <constraint firstItem="d3b-yG-mfO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="306" id="s8h-aD-5Ut"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="d3b-yG-mfO" secondAttribute="bottom" constant="311" id="sfd-hs-SaL"/>
