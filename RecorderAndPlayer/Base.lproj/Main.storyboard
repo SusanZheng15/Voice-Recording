@@ -19,15 +19,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3b-yG-mfO">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <state key="normal" title="Play!">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TLu-be-eTJ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edB-9y-GdJ">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="Record your Voice!">
@@ -35,6 +26,15 @@
                                 </state>
                                 <connections>
                                     <action selector="record:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DDZ-4w-Edu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3b-yG-mfO">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Play!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TLu-be-eTJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -46,8 +46,8 @@
                             <constraint firstItem="d3b-yG-mfO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="143" id="STL-hS-Jze"/>
                             <constraint firstItem="edB-9y-GdJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="69" id="Xel-JG-bLf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="d3b-yG-mfO" secondAttribute="trailing" constant="143" id="rtc-dk-DcJ"/>
-                            <constraint firstItem="d3b-yG-mfO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="306" id="s8h-aD-5Ut"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="d3b-yG-mfO" secondAttribute="bottom" constant="311" id="sfd-hs-SaL"/>
+                            <constraint firstItem="d3b-yG-mfO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="394" id="s8h-aD-5Ut"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="d3b-yG-mfO" secondAttribute="bottom" constant="223" id="sfd-hs-SaL"/>
                         </constraints>
                     </view>
                     <connections>
